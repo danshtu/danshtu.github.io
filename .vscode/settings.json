@@ -6,15 +6,7 @@
                 "name": "My SFTP danshtu folder",
                 "description": "SFTP target with key file",
 
-                "files": [
-                    "*.html",
-                    "styles/*.css",
-                    "images/*.jpg"
-                ],
-                "exclude": [
-                    "README.md",
-                    ".vscode"
-                ],
+                
 
                 "dir": "/home/retro/www",
                 "host": "165.227.17.24",
@@ -22,7 +14,7 @@
 
                 "user": "retro",
                 "password": "caster",
-                "privateKey": "/Users/theodore/.ssh/id_rsa.pub",
+                "privateKey": "/Users/theodore/.ssh/id_rsa",
                 "privateKeyPassphrase": "strato"
             }
         ],
@@ -30,6 +22,13 @@
         "packages": [
             {
                 "name": "upload trash to DigitalOcean",
+                
+                "files": [
+                    "images/*.jpg",
+                    "images/*.png",
+                    "styles/*.css",
+                    "*.html"
+                ],
 
                 "button": {
                     "text": "Deploy to 'Digital Ocean'",
