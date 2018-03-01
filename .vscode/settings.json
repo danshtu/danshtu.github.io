@@ -6,7 +6,7 @@
                 "name": "My SFTP danshtu folder",
                 "description": "SFTP target with key file",
 
-                "dir": "/home/retro/www",
+                "dir": "/var/www/danshtu.com/public_html",
                 "host": "165.227.17.24",
                 "port": 22,
 
