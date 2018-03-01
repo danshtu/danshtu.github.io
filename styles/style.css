@@ -9,7 +9,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url('/images/marblepurple.jpg');
+    background: url('/images/bg1.jpg');
     display: table;
     top: 0;
     background-size: cover;
@@ -30,7 +30,7 @@ html, body {
 
 .content h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(215, 242, 255);
+    color: rgb(188, 234, 248);
     text-shadow: 0px 0px 300px #000;
     font-size: 500%;
 }
@@ -38,11 +38,11 @@ html, body {
 .btn {
     border-radius: 9px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(192, 164, 0);
+    color: rgb(188, 242, 250);
     font-size: 135%;
     padding: 10px 20px;
-    border: solid rgb(192, 164, 0) 3px;
-    background: rgb(61, 56, 134);
+    border: solid rgb(188, 242, 250) 3px;
+    background: rgba(48, 207, 235, 0.3);
     text-transform: uppercase;
     text-decoration: none;
 }

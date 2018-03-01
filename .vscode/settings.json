@@ -6,8 +6,6 @@
                 "name": "My SFTP danshtu folder",
                 "description": "SFTP target with key file",
 
-                
-
                 "dir": "/home/retro/www",
                 "host": "165.227.17.24",
                 "port": 22,
@@ -22,10 +20,11 @@
         "packages": [
             {
                 "name": "upload trash to DigitalOcean",
-                
+
+                "deployOnSave": true,
+
                 "files": [
                     "images/*.jpg",
-                    "images/*.png",
                     "styles/*.css",
                     "*.html"
                 ],
