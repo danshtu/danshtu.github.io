@@ -21,7 +21,7 @@
             {
                 "name": "upload trash to DigitalOcean",
 
-                "deployOnSave": true,
+                // "deployOnSave": true,
 
                 "files": [
                     "images/*.jpg",
