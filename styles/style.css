@@ -10,6 +10,9 @@ body {
 }
 
 .navi-bar-top {
+    position: fixed;
+    width: 100%;
+    margin: 30px auto 30px;
     text-align: center;
 }
 
@@ -49,7 +52,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #bbeef7;
     text-shadow: 0px 0px 300px #000;
-    font-size: 500%;
+    font-size: 4em;
 }
 
 .btn {
@@ -70,7 +73,7 @@ body {
 }
 
 p {
-    font-size: 160%;
+    font-size: 0.8em;
     line-height: 210%;
     text-align: justify;
     margin: 3%;
@@ -93,6 +96,7 @@ p {
 	height:100%;
 }
 
-footer {
-    font-size: .2em;
+#copyright-text {
+    font-size: 0.2em;
+    text-align: center;
 }
