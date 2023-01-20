@@ -1,2 +1,9 @@
 # DS_store files from mac
 .DS_Store
+
+# node modules
+node_modules
+
+# parcel folders
+.parcel-cache
+dist

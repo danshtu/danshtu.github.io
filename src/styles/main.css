@@ -1,37 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-* {
+*, *::before, *::after {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 body {
-    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
     width: 100vw;
-    height: 100vh;
+
     font-family: 'Roboto', sans-serif;
+
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: center;
-    transition: opacity 1s linear;
+    align-items: center;
+    justify-content: center;
 }
 
-header {
+header, main, footer {
     align-self: center;
+    padding: 0 2rem;
 }
 
 h1 {
     margin: 16px 4px;
+    font-size: 3rem;
 }
 
 main  {
-    align-self: center;
+    max-width: 900px;
 }
 
 p {
     margin: 8px;
+    font-size: 1.25rem;
+    line-height: 1.5;
 }
 
 footer {
@@ -56,8 +60,15 @@ a:hover {
     text-align: center;
 }
 
-.socials a div {
-    margin: 4px;
+.socials {
+    font-size: 0;
+    display: flex;
+}
+
+.socials a {
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .copyright {
