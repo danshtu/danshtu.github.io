@@ -37,7 +37,7 @@ jobs:
         run: npm ci
 
       - name: Build with Parcel
-        run: npm run build
+        run: npm run build -- --public-url /danshtu-website/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
